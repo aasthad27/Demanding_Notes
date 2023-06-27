@@ -13,4 +13,4 @@ Demanding Notes is a website designed to help students who haven't studied for t
 - CSS
 - JavaScript
 
-
+#### Do star this repo if you find it helpful or send me the box of pizza (kidding) 😉

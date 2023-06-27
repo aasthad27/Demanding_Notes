@@ -1,0 +1,118 @@
+/* CSS styles for the demanding notes website */
+
+/* Global styles */
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+  }
+  p {
+    font-family: "Playfair Display", serif;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Meme section styles */
+  #memeSection {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #memeContainer img {
+    max-width: 25%;
+    max-height: 5%;
+  }
+  
+  /* Notes section styles */
+  #notesSection {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #cardHolder {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card:hover {
+    background-color: #45a049;
+  }
+  
+  .card-content {
+    font-size: 24px;
+  }
+  .footer-separator {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+   
+  }
+  /* Contributors section styles */
+  #contributorsSection {
+    text-align: center;
+  
+  }
+  
+  #contributorsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contributor-card {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contributor-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .contributor-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .contributor-card p {
+    font-size: 14px;
+    text-align: center;
+  }
+  

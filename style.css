@@ -1,6 +1,4 @@
-/* CSS styles for the demanding notes website */
 
-/* Global styles */
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap");
 body {
@@ -19,13 +17,13 @@ body {
     font-family: "Playfair Display", serif;
   }
   
-  /* Header styles */
+
   header {
     text-align: center;
     margin-bottom: 40px;
   }
   
-  /* Meme section styles */
+  
   #memeSection {
     text-align: center;
     margin-bottom: 40px;
@@ -36,7 +34,7 @@ body {
     max-height: 5%;
   }
   
-  /* Notes section styles */
+ 
   #notesSection {
     text-align: center;
     margin-bottom: 40px;
@@ -73,7 +71,7 @@ body {
     margin-top: 20px;
    
   }
-  /* Contributors section styles */
+  
   #contributorsSection {
     text-align: center;
   
@@ -115,4 +113,29 @@ body {
     font-size: 14px;
     text-align: center;
   }
-  
+  @media screen and (max-width: 768px) {
+    body {
+        padding: 10px; 
+    }
+
+    h1, h2 {
+        font-size: 24px; 
+        margin-top: 10px; 
+    }
+
+    p {
+        margin: 5px 0; 
+    }
+
+    #memeContainer img {
+        max-width: 90%; 
+    }
+
+    .card {
+        width: 80%; 
+    }
+
+    .contributor-card {
+        width: 90%; 
+    }
+}
